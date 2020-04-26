@@ -1,0 +1,14 @@
+---
+comment_date: 2018-11-24 20:09
+user_name: Swapnil
+comment: |
+  Hi Jaap,
+
+  Thanks for revert…
+
+  The inteface name and number is *lt-0/0/10 interface , which enable after configuring tunnel services on vMX-14. and I can see the same *lt interface on vMX master, but when i am assigning *lt interface to respective logical systems, it didnt shows me under LS.
+
+  Currently i am reading one blogpost link “http://sk1f3r.ru/jlab-2” where this guy is using the same vMX version which i have, and he fortunatly able to configured the *lt interface and his labs just working fine. (I try to contact him but didnt get any response).
+
+  so i want to know before starting the vMX box on eve-ng does i need to change the interface setting on vMX box under edit option ( QEMU-Arch / QEMU-Nic )
+---

@@ -1,0 +1,15 @@
+---
+comment_date: 2018-11-28 15:03
+user_name: Jaap de Vos
+user_site: lab-time.it
+comment: |
+  Hi Amos,
+
+  That’s a good question. Here is what’s happening:  
+  In step 7 and 8, a new image is being made, which will be this file:  
+  /root/junos/jinstall-vmx-14.1R4.8-domestic-modified.qcow2
+
+  This new image is based of the running node in the lab, but contains the lab nodes changes permanently. If you remove the lab node, the temporary snapshot is gone, but the file I mentioned above will remain, ready for use as a new base image for new lab nodes.
+
+  The commit is indeed performed on the linked clone, but because we have rebased the image of the linked clone to our new modified image, we keep the changes.
+---

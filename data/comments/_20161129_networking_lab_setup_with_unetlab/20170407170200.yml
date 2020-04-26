@@ -1,0 +1,12 @@
+---
+comment_date: 2017-04-07 17:02
+user_name: Jaap de Vos
+user_site: lab-time.it
+comment: |
+  Hi Nitin,
+
+  Thanks for leaving a comment. Without further information, I am guessing that you have the XP guest behind a router inside your lab, am I correct? If this is the case, then you need to provide your home router with a route to the internal subnet in your lab.
+
+  Kind regards,
+  Jaap de Vos 
+---

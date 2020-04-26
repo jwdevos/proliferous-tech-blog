@@ -1,0 +1,47 @@
+  <div class="container-body-color">
+    <div class="container">
+      <div align="center">
+        <div class="row">
+          <div class="col-md-12"><div class="div-height"><br></div></div>
+        </div>
+    
+        <div class="row border rounded row-color">
+          <div class="col-md-12"><br></div>
+    
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <h4>{{ $.Title }}</h4><hr>
+          </div>
+          <div class="col-md-2"></div>
+    
+          <div class="col-md-12"><br></div>
+    
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            {{ $baseurl := .Site.BaseURL }}
+            {{ $data := index .Site.Data .Site.Language.Lang }}
+            <article>
+              <section>
+                <table>
+                {{ range (where .Site.RegularPages "Type" "blogs") }}
+                  <tr>
+                    <td style="white-space:nowrap;"><a class="archive-link" href="{{ .Permalink }}">{{ .Date | dateFormat "2006"}}-{{ .Date | dateFormat "01"}}-{{ .Date | dateFormat "02"}}</td>
+                    <td style="white-space:nowrap;">&nbsp;</td>
+                    <td style="white-space:nowrap;"><a class="archive-link" href="{{ .Permalink }}">{{ .Title }}</a></td>
+                  </tr>
+                {{ end }}
+                </table>
+              </section>
+            </article>
+          </div>
+          <div class="col-md-2"></div>
+
+          <div class="col-md-12"><br></div>
+        </div>
+    
+        <div class="row">
+          <div class="col-md-12"><div class="div-height"><br></div></div>
+        </div>
+      </div>
+    </div>
+  </div>

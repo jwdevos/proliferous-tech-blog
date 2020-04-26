@@ -1,0 +1,12 @@
+---
+comment_date: 2018-18-08 00:45
+user_name: Jaap de Vos
+user_site: lab-time.it
+comment: |
+  Hi Marco,
+
+  Thank you for your compliments. You are correct in pointing out some shortcomings of availability using CARP in this way. To be honest, I do not know the full solution to this challenge when using PfSense. I do have some comparable experience on a modern FortiGate cluster. With the FortiGate FW’s I also use virtual IP’s. You can set the WAN connection up to monitor IP addresses and have the interface track the status of that. So basically the node that’s the master for the virtual IP tests reachability of it’s WAN GW (for example) and if the check fails on the master node it can fail over to the slave node. When building a redundant cluster like this you also want redundancy on layer 2. The easiest thing to do is hooking up a firewall cluster to a stacked switch then trunk some VLAN’s over that.
+
+  Kind regards,  
+  Jaap de Vos
+---

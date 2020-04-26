@@ -1,0 +1,12 @@
+---
+comment_date: 2018-06-25 12:52
+user_name: Jaap de Vos
+user_site: lab-time.it
+comment: |
+  Hi PBD,
+
+  Thank you for leaving your feedback. I haven’t used DNS myself, but if you are talking about resolving IP addresses from within your lab environment by using DNS, the easiest solution would be to add some DNS records in your local DNS server outside of your lab. If you use a public DNS server only outside your lab, this would not be possible and you would need a different solution.
+
+  Kind regards,  
+  Jaap de Vos
+---

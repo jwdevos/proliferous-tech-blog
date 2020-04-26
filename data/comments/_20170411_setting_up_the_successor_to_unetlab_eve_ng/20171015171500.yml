@@ -1,0 +1,10 @@
+---
+comment_date: 2017-10-15 17:15
+user_name: Sohaib Afourid
+comment: |
+  Hello and thank for this post, it is very helpful.
+  I have an issue when I use a topology with 1 routers connected to two subnets 192.168.43.0/24 eth0/0 (Internet via pnet1) and 10.1.1.0/24 e0/1.
+  when I try to ping from the router to 8.8.8.8 it works just fine, but when i try the same from the VPC (ip add 10.1.1.100) it fails.
+  I used 192.168.43.1 (my home router’s gateway) as my gateway.
+  What am I doing wrong ?
+---

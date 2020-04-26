@@ -1,0 +1,151 @@
+.container-header-background {
+  background: LightSteelBlue;
+  background: url(../img/headerblurlarge.jpg) center no-repeat;
+  background-size: cover;
+  border: 2px solid dimgrey;
+}
+
+.blogimage {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container-body-color {
+  background: mintcream;
+  background: LightSteelBlue;
+}
+
+.container-footer-color {
+  background: dimgrey;
+}
+
+.row-color {
+  background-color: white;
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+  
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.fa-github-square {
+  color: #24292e;
+}
+
+.fa-github-square:hover {
+  color: white;
+}
+
+.fa-linkedin {
+  color: #0177b5;
+}
+
+.fa-linkedin:hover {
+  color: white;
+}
+
+.fa-twitter-square {
+  color: #1da1f2;
+}
+
+.fa-twitter-square:hover {
+  color: white;
+}
+
+.fa-facebook-square {
+  color: #4267b2;
+}
+
+.fa-facebook-square:hover {
+  color: white;
+}
+
+.div-height {
+  line-height: 50%;
+}
+
+.dropdown-bg-color {
+  background-color: lightsteelblue;
+}
+
+.dropdown-hover-color {
+  color: black;
+  font-size: 0.9em;
+}
+
+.dropdown-hover-color:hover {
+  background-color: grey;
+  color: white;
+}
+
+.outline-text {
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+}
+
+.outline-icon {
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white; 
+}
+
+.plain-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.plain-link:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.black-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.black-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.posted-on {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.archive-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.archive-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a {
+  color: #009bff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #009bff;
+  text-decoration: underline;
+}

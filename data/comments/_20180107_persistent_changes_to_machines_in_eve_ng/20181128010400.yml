@@ -1,0 +1,13 @@
+---
+comment_date: 2018-11-28 01:04
+user_name: Amos Thong
+comment: |
+  Hi Jaap,
+
+  Thanks for sharing your experience.  
+  In Step 8 we do a “commit” to the linked clone, i.e. hda.qcow2 and then we remove it in Step 9. Aren’t we removing the committed change ?
+
+  Should the commit be done for the /root/junos/jinstall-vmx-14.1R4.8-domestic-modified.qcow2 instead of the linked node.
+
+  Your clarification is much appreciated. Thanks.
+---

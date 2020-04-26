@@ -1,0 +1,6 @@
+---
+comment_date: 2018-11-19 15:39
+user_name: Viktor
+comment: |
+  I think you need to have /etc/pve files too for restore your VM. For example: you need vm config, network config your proxmox and so on.
+---

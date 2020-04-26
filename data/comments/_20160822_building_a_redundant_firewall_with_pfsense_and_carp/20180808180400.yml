@@ -1,0 +1,16 @@
+---
+comment_date: 2018-08-08 18:04
+user_name: Marco
+comment: |
+  I, nice guide !
+
+  I have a question :  
+  On my 2 pfsense nodes I have 1 carp in internal lan and 1 or more on wan.
+  If master node turns off ( fails or what ever ) all the Carp vips on backup becomes Master ( correctly ) and everything goes well.  
+  BUT  
+  If only the lan or wan cable fails : so i have all 2 nodes powered and responding happens that the vip not the ethernet failed switches from one node to the other but the vips on the connected eth remains master so i have ( for example ) lan vip master on node 2 and wan vip master on node one and this causes, if I have netted servers the unavailability of the servers…  
+
+  Is there a way, if you know, to fail all vips on a node if at least one vip or one eth fails ?
+
+  Many thanks !!!
+---

@@ -1,0 +1,9 @@
+---
+comment_date: 2018-10-17 16:16
+user_name: Andy Truett
+comment: |
+  For what it's worth, Aerohive AP121 devices are compatible with OpenWRT and should be able to be used with OpenWISP for ease of managing multiple WAPs.
+
+  https://openwrt.org/toh/hwdata/aerohive/aerohive_ap121  
+  http://openwisp.org/
+---

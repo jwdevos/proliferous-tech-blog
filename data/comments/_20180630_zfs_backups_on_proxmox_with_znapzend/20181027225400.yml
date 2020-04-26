@@ -1,0 +1,6 @@
+---
+comment_date: 2018-10-27 22:54
+user_name: Romain
+comment: |
+  OK I see !!! If I lost my primary node, I thought I could just start the replicated VM (like a normal one) on the backup node but you mean that I have to create a VM first to host replicated disks. Is that right ?
+---

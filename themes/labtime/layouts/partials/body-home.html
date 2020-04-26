@@ -1,0 +1,53 @@
+  <div class="container-body-color">
+    <div class="container">
+      <div align="center">
+        <div class="row">
+          <div class="col-md-12"><div class="div-height"><br></div></div>
+        </div>
+    
+        <div class="row border rounded row-color">
+          <div class="col-md-12"><br></div>
+    
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <h4>{{ $.Title }}</h4><hr>
+          </div>
+          <div class="col-md-2"></div>
+    
+          <div class="col-md-12"><br></div>
+    
+          <div class="col-md-2"></div>
+          <div class="col-md-8 text-left">
+            {{ $.Content }}
+          </div>
+          <div class="col-md-2"></div>
+    
+          <div class="col-md-12"><br></div>
+
+          {{ range first 5 (where .Pages "Section" "blogs") }}
+            <div class="col-md-2 col-lg-3"></div>
+            <div class="col-md-8 col-lg-6 text-left border rounded">
+              <div align="center">
+                <br>
+                <a class="black-link" href="{{ .Permalink }}"><h6>{{ .Title }}</h6></a>
+                <span class="posted-on">Published on {{ .Date | dateFormat "2006"}}-{{ .Date | dateFormat "01"}}-{{ .Date | dateFormat "02"}}</span><br>
+                {{ .Summary }}<br><br>
+                {{ if (isset .Params "featured_image_url") }}
+                <a href="{{ .Params.featured_image_url }}"><img class="blogimage" src="{{ .Params.featured_image }}" alt="{{ .Params.featured_image }}"></a><br><br>
+                {{ else }}
+                <a href="{{ .Permalink }}"><img class="blogimage" src="{{ .Params.featured_image }}" alt="{{ .Params.featured_image }}"></a><br><br>
+                {{ end }}
+                <a href="{{ .Permalink }}"><button type="button" class="btn btn-outline-dark btn-sm">Read full article</button></a><br><br>
+              </div>
+            </div>
+            <div class="col-md-2 col-lg-3"></div>
+            <div class="col-md-12"><br></div>
+          {{ end }}
+        </div>
+    
+        <div class="row">
+          <div class="col-md-12"><div class="div-height"><br></div></div>
+        </div>
+      </div>
+    </div>
+  </div>

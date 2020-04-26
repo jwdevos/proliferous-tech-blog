@@ -1,0 +1,38 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/custom.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/prism.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/prism-line-numbers.css">
+
+  <!-- Favicon stuff -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Include page description as meta data, if available -->
+  {{ if $.Params.Description }}
+  <meta name="description" content="{{ $.Description }}">
+  {{ end }}
+
+  <!-- Include keywords as meta data, if available -->
+  {{ if $.Params.Tags }}
+  <meta name="keywords" content="{{ range $.Params.Tags }}{{ . }},{{ end }}">
+  {{ end }}
+
+  <!-- RSS autodiscovery thing -->
+  {{ with .OutputFormats.Get "rss" }}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end }}
+
+  <title>{{ .Site.Title }} - {{ .Title }}</title>
+</head>

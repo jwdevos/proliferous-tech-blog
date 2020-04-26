@@ -1,0 +1,20 @@
+---
+comment_date: 2017-06-16 23:49
+user_name: Jaap de Vos
+user_site: lab-time.it
+comment: |
+  @chairul:  
+  I haven’t heard about this before yet. I also can not find good info about these issues with Google. Do you know what the problem was with Unetlab? Some virtualization features behaving differently perhaps? You can always just try it, or ask the Eve-NG devs via Twitter or IRC.
+
+  @NC:  
+  Is it an IOL node? You might try to double-check the license file and make sure to execute the wrapper command after each image upload. Also: did you make sure to set the virtualization settings for the VM correct?
+  
+  @Naresh:  
+  Thanks for your encouragement. You can basically run anything that’s x86 compatible. I don’t know about any VM offerings by checkpoint but I’ve tried FortiGate and Windows (XP) with success and know that F5 works.
+  
+  @Carlos:  
+  You are welcome.
+  
+  Kind regards,  
+  Jaap de Vos  
+---

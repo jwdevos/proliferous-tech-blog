@@ -1,0 +1,11 @@
+---
+comment_date: 2018-10-17 22:31
+user_name: Romain
+comment: |
+  Hi !
+
+  I have the same installation, except my backup server is also a Proxmox server.
+  My VMs are sent from Proxmox source to Proxmox destination via ZnapZend. I see my replicated disks whan I zfs list on the target node but I don’t know how to “import” these VM on target Proxmox node. Do you have an idea ?
+
+  Thanks !
+---

@@ -1,0 +1,6 @@
+---
+comment_date: 2018-03-26 17:37
+user_name: perry
+comment: |
+  In step 8, you remove the diff of the node from the tmp directory and then in step 9 you try to commit … this won’t work since you delete the diff from the tmp directory – did you make a mistake here?
+---

@@ -1,0 +1,29 @@
+  <div class="container-footer-color">
+    <div class="container">
+      <div align="center">    
+        <div class="row text-light">
+          <div class="col-md-2"></div>
+          <div class="col-md-4">
+            <br>
+            Some useful links:<br>
+            <u><a class="plain-link" href="{{ .Site.BaseURL }}/sitemap.xml">Site Map</a></u><br>
+            <u><a class="plain-link" href="{{ .Site.BaseURL }}/blogs/index.xml">RSS Feed</a></u><br>            
+          </div>
+          <div class="col-md-4">
+            <br>
+            © Copyright 2016 - {{ now.Format "2006" }}<br>
+            Lab Time - Jaap de Vos
+          </div>
+          <div class="col-md-2"></div>
+
+          <div class="col-md-12"><br></div>
+          
+          <div class="col-md-12">
+            <a class="plain-link" href="https://feedly.com/i/subscription/feed/{{ .Site.BaseURL }}/blogs/index.xml"><img src="{{ .Site.BaseURL }}/img/feedly-follow.png" alt="{{ .Site.BaseURL }}/img/feedly-follow.png"></a><br>
+          </div>
+    
+          <div class="col-md-12"><br></div>
+        </div>
+      </div>
+    </div>
+  </div>

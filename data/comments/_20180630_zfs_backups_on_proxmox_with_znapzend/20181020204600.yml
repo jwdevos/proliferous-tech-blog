@@ -1,0 +1,9 @@
+---
+comment_date: 2018-10-20 20:46
+user_name: Jaap de Vos
+user_site: lab-time.it
+comment: |
+  Hi Romain,
+
+  Thanks for leaving a message. I don’t know a simple procedure, but your steps would depend on the restore scenario. If you still have the primary Proxmox node intact but you want to restore an older disk version, you could just copy the version of the VM disk from your backup, then power down the VM and point the disk to the backup copy. If this works, just remove the original disk. If you lost your entire Proxmox node, you’d have to create a new VM, then follow the same steps (place a copy of the disk then point to it). Of course, the VM settings should be identical.
+---

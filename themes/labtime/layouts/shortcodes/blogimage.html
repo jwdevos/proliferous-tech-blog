@@ -1,0 +1,7 @@
+{{ $.Scratch.Set "get1" (.Get 1) }}
+{{ $get1 := $.Scratch.Get "get1" }}
+{{ if $get1 }}
+<div align="center"><a href="{{ .Get 1 }}" target="_blank"><img class="blogimage" src="{{ .Get 0 }}" alt="{{ .Get 0 }}"></a></div><br>
+{{ else }}
+<div align="center"><a href="{{ .Get 0 }}" target="_blank"><img class="blogimage" src="{{ .Get 0 }}" alt="{{ .Get 0 }}"></a></div><br>
+{{ end }}

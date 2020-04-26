@@ -1,0 +1,14 @@
+---
+comment_date: 2017-03-09 22:20
+user_name: Nitin mohan
+comment: |
+  can you connect the unet lab with internet, i am running ubuntu , vmware workstation in it running unet lab .  
+  i have installed windows xp in unet lab but wants to connect this windows host to internet, so that i can install some useful software it .  
+  i have enabled the these bridge interface as you have show in your lab adding those lines in the /etc/network/interfaces file.  
+
+  in my virtual network editor , i have set the vmnet0, vmnet 1 adapters to bridge mode, one of them is bridged to wlan 0 and vmnet1 is connected to virbr0.  
+
+  Please help!!!  
+  Regards,  
+  Nitin Mohan  
+---

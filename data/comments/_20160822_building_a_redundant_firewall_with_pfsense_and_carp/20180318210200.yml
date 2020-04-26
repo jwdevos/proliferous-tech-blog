@@ -1,0 +1,10 @@
+---
+comment_date: 2018-03-18 21:02
+user_name: sistemista.ninja
+comment: |
+  Thanks for the guide!
+
+  I had little issues at the beginning because the LAN VIP was appearing as ‘master’ in the slave machine, after fiddling around a bit, I found out it was a problem with the dhcp server ip range!
+
+  Now I have a fully failover working 🙂
+---

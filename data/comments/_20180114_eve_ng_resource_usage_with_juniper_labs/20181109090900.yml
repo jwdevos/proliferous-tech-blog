@@ -1,0 +1,12 @@
+---
+comment_date: 2018-11-09 09:09
+user_name: Swapnil
+comment: |
+  Hi there ,
+
+  I am using vMX 14. In eve-ng …I am trying to configured logical system with *lt interface , i have check the config twise and it’s okay. I have configured tunnel service , *lt interface shows in vmx.
+
+  But when I assigned *lt interface to logical system it’s not working anymore. Sub *lt interface didn’t shows under respective LS.
+
+  Please suggest any setting when we add vmx node in eve-ng
+---

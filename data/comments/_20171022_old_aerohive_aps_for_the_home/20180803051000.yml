@@ -1,0 +1,20 @@
+---
+comment_date: 2018-08-03 05:10
+user_name: James
+comment: |
+  Hello Jaap,
+
+  I finally managed to get hold of the latest firmware, flashed the APs and they have been running fine since. I even managed to program them to auto-reboot @ 4:59AM everyday just to keep them APs fresh 🙂
+
+  The command for reboot scheduling is supported by the 6.5r3+ firmware and it looks like so:
+
+  reboot sched daily every 1 day time 04:59:00
+
+  Save your config and reboot the unit. You can check for remaining time before scheduled reboots using the command: sh reboot sched
+
+  For those who are stuck in a similar situation you can head to https://thehivecommunity.aerohive.com/ and create an account (you might still need a corporate email address) then, using the Topics > Ask A Question menu options, ask for help. I was lucky enough to get a very quick response from one of AH employees who provided me with the required firmware files for my AP.
+
+  Thank you again for the inspiring post and sorry for mixing up names in my previous comment.
+
+  Cheers
+---
