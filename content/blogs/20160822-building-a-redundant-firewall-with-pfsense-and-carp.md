@@ -19,7 +19,9 @@ This post is about building a redundant firewall with [PfSense](https://www.pfse
 Being based on FreeBSD, PfSense is known to be very stable. PfSense can do all kinds of awesome things with real easy configuration, like providing an OpenVPN server for remote login or site-to-site tunneling. I have been a PfSense user for years, for both personal and professional goals in multiple environments.
 
 ##### Introduction
-The example here will use VirtualBox on a Windows desktop. The starting point is having one PfSense VM already installed and configured to provide access to a LAN behind it. In this case, I have reincarnated the VM from [another Proliferous Technology article](/blogs/20160822-building-a-redundant-firewall-with-pfsense-and-carp/). I will do a similar setup, providing access to an isolated network from my home network, through PfSense. The difference is this time around, we will have another PfSense to provide failover capabilities. The diagram for the scenario looks like this:
+The example here will use VirtualBox on a Windows desktop. The starting point is having one PfSense VM already installed and configured to provide access to a LAN behind it. In this case, I have reincarnated the VM from [another Proliferous Technology 
+article](/blogs/20160811-building-an-mcsa-lab-with-pfsense-and-virtualbox/). I will do a similar setup, providing access to an isolated network from my home network, through PfSense. The difference is this time around, we will have another PfSense to provide failover capabilities. The diagram for the scenario 
+looks like this:
 {{< blogimage "/img/posts/20160822-building-a-redundant-firewall-with-pfsense-and-carp/network-125.png" >}}
 
 The diagram shows three different subnets:
