@@ -1,8 +1,0 @@
----
-comment_date: 2018-05-08 21:30
-user_name: PDB
-comment: |
-  Brilliant guide, thank you!
-
-  One quick question, how do we resolve DNS in this scenario? I’ve installed the DNS role onto my DC and can ping the IP address but not the hostname. Cheers.
----
