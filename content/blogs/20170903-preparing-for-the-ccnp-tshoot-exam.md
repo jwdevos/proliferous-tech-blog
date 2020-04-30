@@ -24,7 +24,7 @@ This week I finally finished my CCNP R&S; studies by passing the TSHOOT exam. Th
 <!-- more -->
 The TSHOOT exam consists of tickets and multiple choice questions. I won't comment on the exact content of the exam of course, but it's general knowledge that Cisco provides the network topology of the exam to the public. It can be found [here](https://learningnetwork.cisco.com/thread/10965). You can also get familiar with the exam simulator [over here](http://www.cisco.com/c/dam/en_us/training-events/le3/le2/le37/le10/tshoot_demo.html).
 
-Although you can view the network topology before taking the exam, there is still a lot left open. The network can be built with different configuration choices being made for a lot of the technologies used. Some technologies might be present, or they might not be. I've built the network in Eve-NG, like this (click the picture or [this link](https://www.lab-time.it/wp-content/uploads/2017/09/eve-ng.png) for a readable version):
+Although you can view the network topology before taking the exam, there is still a lot left open. The network can be built with different configuration choices being made for a lot of the technologies used. Some technologies might be present, or they might not be. I've built the network in Eve-NG, like this (click the picture or [this link](/img/posts/20170903-preparing-for-the-ccnp-tshoot-exam/eve-ng.png) for a readable version):
 {{< blogimage "/img/posts/20170903-preparing-for-the-ccnp-tshoot-exam/eve-ng.png" >}}
 
 As you can see, I like to add a lot of visual information to the networks I build in Eve-NG to make everything as clear as possible. It's a bit tedious to set it up like this but it helps with focus and troubleshooting. There are a lot of things to pay attention to when building this network, so I will provide the following list of things to consider:
@@ -45,4 +45,4 @@ As you can see, I like to add a lot of visual information to the networks I buil
 * If you look at the IPv6 topology Cisco provided the IPv4 addresses between R3 and R4 are incorrect. They are correct on the IPv4 topology however so you should configure those
 * There are a couple of technologies that I did not include but that might be used in this network. Think about ACL's, VACL's, NAT64 at the edge and authentication of routing protocols. If you don't have those technologies fresh in mind it might be a good idea to configure them
 
-As a nice treat I have added all the running configs for my lab devices, to be found [here](https://www.lab-time.it/wp-content/uploads/2017/09/configs.zip). Thank you for reading a Lab Time article. Please feel free to ask questions or leave comments.
+As a nice convenience I have added all the running configs for my lab devices, to be found [here](/files/ccnp-tshoot-configs.zip). Thank you for reading a Proliferous Technology article. Please feel free to reach out on social media if you have any questions of comments.

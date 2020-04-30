@@ -18,7 +18,7 @@ tags:
 - vmware player
 ---
 
-I'm happy to bring an update to [my previous article about Unetlab](https://www.lab-time.it/2016/11/29/networking-lab-setup-with-unetlab/). The successor to Unetlab, named [EVE-NG](http://eve-ng.net/), is now released. EVE-NG stands for Emulated Virtual Environment Next Generation and it's packed with cool new features. I will describe some of them in this article, along with the setup procedure which is very similar to setting up Unetlab.
+I'm happy to bring an update to [my previous article about Unetlab](/blogs/20161129-networking-lab-setup-with-unetlab/). The successor to Unetlab, named [EVE-NG](http://eve-ng.net/), is now released. EVE-NG stands for Emulated Virtual Environment Next Generation and it's packed with cool new features. I will describe some of them in this article, along with the setup procedure which is very similar to setting up Unetlab.
 {{< blogimage "/img/posts/20170411-setting-up-the-successor-to-unetlab-eve-ng/logo.png" >}}
 <!-- more -->
 The new features that I like the most are a native HTML5 client, the UKSM implementation, and the capability to be installed from an ISO on a bare-metal machine. The HTML5 feature will be demonstrated later on in this article. [UKSM](http://kerneldedup.org/en/projects/uksm/) stands for Ultra Kernel Samepage Merging and it's basically used to do memory deduplication. This means that running multiple instances of the same OS in your lab only costs you a little bit of extra memory per instance. Robin Gilijamse has [a cool demonstration](https://interestingtraffic.nl/2017/01/05/eve-ng-preview-released/) on his blog.
@@ -236,4 +236,4 @@ This will open a dialog for selecting interface numbers:
 The device is now connected to your network via the bridge interface. You can connect multiple lab nodes to each other in the same way. If you configured the device interface with correct settings for your network you can reach it at this point:
 {{< blogimage "/img/posts/20170411-setting-up-the-successor-to-unetlab-eve-ng/ping-test.png" >}}
 
-So that’s it, you can build topologies and test your own stuff with this setup. You might be interested in the official how-to's which can be found [here](http://eve-ng.net/index.php/documentation/howto-s). Thanks for reading yet another Lab Time article and be on the lookout for a follow-up with tips and tricks for using EVE-NG on a laptop. Comments are highly appreciated.
+So that’s it, you can build topologies and test your own stuff with this setup. You might be interested in the official how-to's which can be found [here](http://eve-ng.net/index.php/documentation/howto-s). Thanks for reading yet another Proliferous Technology article and be on the lookout for a follow-up with tips and tricks for using EVE-NG on a laptop. Comments are highly appreciated, the way to reach out is via social media.

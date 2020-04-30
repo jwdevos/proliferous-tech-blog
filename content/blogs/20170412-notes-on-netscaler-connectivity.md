@@ -89,4 +89,4 @@ The VIP is still reachable from both broadcast domains but that's alright at thi
 
 {{< blogimage "/img/posts/20170412-notes-on-netscaler-connectivity/ping-vip-outside.png" >}}
 
-Notice that we have only restricted a single subnet in the ACL. IP's outside of this subnet should be restricted in the firewall that segmented the DMZ networks and the rest of the networks. With that we have reached the end of this demonstration and the end of this article. Thank you for reading yet another Lab Time article and please feel free to leave a comment.
+Notice that we have only restricted a single subnet in the ACL. IP's outside of this subnet should be restricted in the firewall that segmented the DMZ networks and the rest of the networks. With that we have reached the end of this demonstration and the end of this article. Thank you for reading yet another Proliferous Technology article. Please feel free to reach out on social media if you have any questions of comments.
