@@ -9,10 +9,4 @@ min_version = "0.41"
 
 [author]
   name = "Jaap de Vos"
-  homepage = "www.lab-time.it"
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  homepage = "www.proliferoustech.com"

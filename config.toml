@@ -1,12 +1,9 @@
-baseURL = "https://test.lab-time.it"
+baseURL = "https://www.proliferoustech.com"
 languageCode = "en-us"
-title = "Lab Time Test"
+title = "Proliferous Technology"
 theme = "labtime"
 enableRobotsTXT = true
 copyright = "Copyrighted by Jaap de Vos. All rights reserved."
-#PygmentsCodeFences = true
-#pygmentsStyle = "monokai"
-#pygmentsOptions = "linenos=table"
 
 [params]
   subtitle = "read about networking, virtualization, home labs and related things"
