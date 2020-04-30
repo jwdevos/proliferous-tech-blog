@@ -2,13 +2,15 @@
 title: About
 url: /about/
 type: plain
-description: "About page for Lab Time, a technology blog by Jaap de Vos"
+description: "About page for Proliferous Technology, a project by Jaap de Vos"
 ---
 
-Lab Time is a project by Jaap de Vos, a network engineer with a few years of experience. He was schooled as a software engineer but soon found that infrastructure technology is more fun. Jaap holds multiple industry certifications including CCNP R&S, VCP-DCV and MCSA. He also has experience in teaching courses about networking and general information technology.
+Welcome to Proliferous Technology. My name is Jaap de Vos.
 
-At the moment, Jaap is on a path to build out his framework of networking knowledge. He mainly works in the enterprise space but he's looking to expand his knowledge about data center and service provider technologies too. Regarding certifications, he's just getting started working toward achieving some Juniper SP credentials.
+This project started its life under the name Lab Time, which had a focus on anything related to IT home labs. In the new form, Proliferous Technology, the topics include broad IT subjects and some other technical things that I like to explore. The blogs are fun and informative. The goals for this project are sharing knowledge, practicing skills and increasing my visibility.
 
-Lab Time is mostly about things you can do in home labs. The blogs are fun and informative. The goals for this blog are sharing knowledge, practicing skills and making name as a network engineer.
+I am a network engineer with a few years of experience. I was schooled as a software engineer but soon found that infrastructure technology is more fun. I hold multiple industry certifications including CCNP R&S, VCP-DCV and MCSA. I also have experience in teaching courses about networking and general information technology.
 
-The views expressed on Lab Time are my own, I don't express the views of my employer.
+At the moment, I'm is on a path to build out my framework of networking knowledge. I've mainly worked in the enterprise space but I'm expanding on this by looking into new industries and technical solutions.
+
+The views expressed on Proliferous Technology are my own. I don't represent the views of my employer.
