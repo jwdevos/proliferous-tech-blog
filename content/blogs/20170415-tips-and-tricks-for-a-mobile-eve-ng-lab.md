@@ -21,7 +21,7 @@ tags:
 Most of my lab work gets done on a laptop these days. I like to run an EVE-NG lab and connect it to several other VM's. There are some challenges in doing that on my mobile Windows device as compared to having a dedicated ESXi box for it. Most of those challenges are now solved so I'd like to share some of my findings.
 {{< blogimage "/img/posts/20170415-tips-and-tricks-for-a-mobile-eve-ng-lab/logo.png" >}}
 <!-- more -->
-I'll provide the challenges and solutions in two categories; hypervisor choice and connectivity options. If you just want to get started with EVE-NG, [this Lab Time article](https://www.lab-time.it/2017/04/11/setting-up-the-successor-to-unetlab-eve-ng/) will provide all the info you need in one place. Here are the challenges that I ran into:
+I'll provide the challenges and solutions in two categories; hypervisor choice and connectivity options. If you just want to get started with EVE-NG, [this Proliferous Technology article](/blogs/20170411-setting-up-the-successor-to-unetlab-eve-ng/) will provide all the info you need in one place. Here are the challenges that I ran into:
 
 ##### Selecting a hypervisor
 The hypervisor you'll want to use depends on your requirements. Mine where:

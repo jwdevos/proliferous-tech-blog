@@ -21,7 +21,7 @@ tags:
 - vagrant
 ---
 
-Vagrant is a word that I've heard from time to time over the last couple of years. I knew the high-level concept but never really saw a use case, until now. [My previous project](https://www.lab-time.it/2017/10/13/openbsd-firewall-with-pf-using-ansible/) had me setting up a VM on an ESXi box, taking a snapshot of a clean install and manually restoring the VM to the snapshot state every time I wanted to do a new test of my code. Standing up a single VM with a single snapshot isn't that bad but it doesn't scale. My next step is standing up labs with multiple machines. Vagrant can support a sensible workflow for those labs. Read on to find out why and how.
+Vagrant is a word that I've heard from time to time over the last couple of years. I knew the high-level concept but never really saw a use case, until now. [My previous project](/blogs/20171013-openbsd-firewall-with-pf-using-ansible/) had me setting up a VM on an ESXi box, taking a snapshot of a clean install and manually restoring the VM to the snapshot state every time I wanted to do a new test of my code. Standing up a single VM with a single snapshot isn't that bad but it doesn't scale. My next step is standing up labs with multiple machines. Vagrant can support a sensible workflow for those labs. Read on to find out why and how.
 {{< blogimage "/img/posts/20171107-networking-labs-with-vagrant/vagrant.png" >}}
 <!-- more -->
 My motivation to learn more about Vagrant isn't just for the projects I want to do right now. I have a feeling it can help out with future learning endeavours as well. I want to be able to build network topologies that consist of unix based devices, hooked up in a certain way, then apply some configuration and test the behavior. This capability will allow me to standup the following topology, for example:  
@@ -164,4 +164,4 @@ I looked at [this GitHub project](https://github.com/lowescott/2016-dnf-material
 
 A cool thing about some of the boxes in the Vagrant Cloud library is that they can have a version. You can use the version number in your Vagrantfile to use older versions of the box. I intend to use this feature to test performing OS upgrades on boxes. This would allow me to try out the behaviour and streamline the procedure for later use on production systems.
 
-Thank you for reading an article on Lab Time. Feel free to leave a comment.
+Thank you for reading an article on Proliferous Technology. Please reach out on social media if you have any questions of comments.

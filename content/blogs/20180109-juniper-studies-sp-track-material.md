@@ -51,7 +51,7 @@ USD 600
   * JNCIS-SP resources
     * Day One: Exploring IPv6
 [https://forums.juniper.net/t5/Day-One-Books/Day-One-Book-Exploring-IPv6/ba-p/52402](https://forums.juniper.net/t5/Day-One-Books/Day-One-Book-Exploring-IPv6/ba-p/52402)
-There is a Lab Time post about this book [here](https://www.lab-time.it/2018/01/10/juniper-studies-day-one-ipv6-book/)
+There is a Proliferous Technology post about this book [here](/blogs/20180110-juniper-studies-day-one-ipv6-book/)
     * Day One: Routing the Internet Protocol
 [https://forums.juniper.net/t5/Day-One-Books/Day-One-Routing-the-Internet-Protocol/ba-p/283507](https://forums.juniper.net/t5/Day-One-Books/Day-One-Routing-the-Internet-Protocol/ba-p/283507)
     * RFC 4271: A Border Gateway Protocol 4 (BGP-4)
@@ -133,7 +133,7 @@ Besides the official recommendation, there is a lot of other material out there 
 
 ##### Lab inspiration
 The content of this blog can assist with building your labs, at least if you decide to use a virtual solution. If you decide to go with hardware, I've heard you can come a long way with a couple of EX switches and small SRX'es. The attraction of the SRX is that you can run virtual SRX instances on top of your physical device, allowing you to create a diversity of more complex topologies. I can't comment on how well this solution is suited to the SP track, but for the ENT track, you can study every topic with a setup like this.
-For a virtual setup, [this Lab Time post](https://www.lab-time.it/2018/01/09/comparing-juniper-wistar-to-eve-ng/) can serve as a starting point. Furthermore, if you choose to use Eve-NG, check out [the Lab Time series on Eve-NG](https://www.lab-time.it/series-eve-ng/). If you choose to use Wistar, check out [the guide by Robin Gilijamse](https://interestingtraffic.nl/2017/11/16/playing-around-with-wistar/). If you are looking for inspiration for lab topologies, you can consult the following list:
+For a virtual setup, [this Proliferous Technology post](/blogs/20180109-comparing-juniper-wistar-to-eve-ng/) can serve as a starting point. Furthermore, if you choose to use Eve-NG, check out [the Proliferous Technology series on Eve-NG](/series/eve-ng/). If you choose to use Wistar, check out [the guide by Robin Gilijamse](https://interestingtraffic.nl/2017/11/16/playing-around-with-wistar/). If you are looking for inspiration for lab topologies, you can consult the following list:
 
 * [BGP toplogies](http://www.networkingwithfish.com/bgp/) by Networking with Fish
 * [A L3 MPLS topology](http://noshut.ru/2015/11/basic-l3vpn-bgpmpls-vpn-or-vprn-configuration-alcatel-lucent-juniper/) by noshut.ru. This example mixes devices from multiple vendors, but you can build the same thing with just Junos

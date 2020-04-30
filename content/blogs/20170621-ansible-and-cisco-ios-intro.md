@@ -37,11 +37,11 @@ When specifying it via a group_vars YAML file it looks like this:
 ---
 ansible_connection: "local"
 ```
-For more basic information regarding your inventory files, see [my previous article](https://www.lab-time.it/2017/06/19/ansible-inventory-considerations/).
+For more basic information regarding your inventory files, see [my previous article](/blogs/20170619-ansible-inventory-considerations/).
 
 And now for some actual labbing. I've got a VM running an EVE-NG lab topology on my laptop, looking like this (only the R1 and R2 IOS routers are relevant for this demo):
 {{< blogimage "/img/posts/20170621-ansible-and-cisco-ios-intro/lab_topology.png" >}}
-Another VM running Debian contains my Python and Ansible software and some Ansible stuff I've written. The Debian VM can reach the Eve-NG topology as described in [an earlier Lab Time article](https://www.lab-time.it/2017/04/15/tips-and-tricks-for-a-mobile-eve-ng-lab/). The inventory file for the lab topology looks like this:
+Another VM running Debian contains my Python and Ansible software and some Ansible stuff I've written. The Debian VM can reach the Eve-NG topology as described in [an earlier Proliferous Technology article](/blogs/20170415-tips-and-tricks-for-a-mobile-eve-ng-lab/). The inventory file for the lab topology looks like this:
 ```toml
 [all]
 192.168.80.104 ansible_connection=local
@@ -62,5 +62,4 @@ Note that you can append `-v` to any Ansible command you run for a more verbose 
 {{< blogimage "/img/posts/20170621-ansible-and-cisco-ios-intro/command_output.png" >}}
 The command will fail for the other device(s) specified in the hosts file because you didn't explicitly include them in the command. If you want to run Ansible commands on multiple devices you are better off building playbooks or even roles. That gets you into the next level of the Ansible territory. You can do all kinds of fun and powerful things including saving the output from the commands and making changes on the IOS devices.
 
-That concludes this short Ansible for IOS demonstration. Thanks for reading and as always, comments or questions are highly appreciated.
-
+That concludes this short Ansible for IOS demonstration. Thanks for reading and as always: feel free to reach out on social media if you have any questions of comments.
