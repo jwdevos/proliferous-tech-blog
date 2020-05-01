@@ -6,7 +6,7 @@ enableRobotsTXT = true
 copyright = "Copyrighted by Jaap de Vos. All rights reserved."
 
 [params]
-  subtitle = "read about networking, virtualization, home labs and related things"
+  subtitle = "read about technology, with a focus on networking and automation, and whatever else comes along"
 
 [blackfriday]
   hrefTargetBlank = true
