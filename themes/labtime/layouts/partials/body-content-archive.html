@@ -25,9 +25,9 @@
                 <table>
                 {{ range (where .Site.RegularPages "Type" "blogs") }}
                   <tr>
-                    <td style="white-space:nowrap;"><a class="archive-link" href="{{ .Permalink }}">{{ .Date | dateFormat "2006"}}-{{ .Date | dateFormat "01"}}-{{ .Date | dateFormat "02"}}</td>
+                    <td style="white-space:nowrap;"><a class="archive-link" href="{{ .RelPermalink }}">{{ .Date | dateFormat "2006"}}-{{ .Date | dateFormat "01"}}-{{ .Date | dateFormat "02"}}</td>
                     <td style="white-space:nowrap;">&nbsp;</td>
-                    <td style="white-space:nowrap;"><a class="archive-link" href="{{ .Permalink }}">{{ .Title }}</a></td>
+                    <td style="white-space:nowrap;"><a class="archive-link" href="{{ .RelPermalink }}">{{ .Title }}</a></td>
                   </tr>
                 {{ end }}
                 </table>
