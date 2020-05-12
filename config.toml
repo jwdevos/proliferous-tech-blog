@@ -4,6 +4,7 @@ title = "Proliferous Technology"
 theme = "labtime"
 enableRobotsTXT = true
 copyright = "Copyrighted by Jaap de Vos. All rights reserved."
+googleAnalytics = "UA-166310575-1"
 
 [params]
   subtitle = "read about technology, with a focus on networking and automation, and whatever else comes along"
