@@ -1,5 +1,5 @@
 ---
-date: 2020-07-17 00:00:00+00:00
+date: 2020-07-16 00:00:00+00:00
 title: Configuring Aruba WLC With External Captive Portal
 url: /blogs/20200716-configuring-aruba-wlc-with-external-captive-portal/
 page_id: _20200716_configuring_aruba_wlc_with_-external_captive_portal
